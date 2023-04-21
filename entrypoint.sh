@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+UUID=${UUID:-'2dd76b2b-80b0-446e-8867-8ddc016b82d4'}
 VMESS_WSPATH=${VMESS_WSPATH:-'/vmess'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
 TROJAN_WSPATH=${TROJAN_WSPATH:-'/trojan'}
@@ -92,8 +92,6 @@ generate_config() {
             "sniffing":{
                 "enabled":true,
                 "destOverride":[
-                    "http",
-                    "tls"
                 ],
                 "metadataOnly":false
             }
@@ -119,8 +117,6 @@ generate_config() {
             "sniffing":{
                 "enabled":true,
                 "destOverride":[
-                    "http",
-                    "tls"
                 ],
                 "metadataOnly":false
             }
@@ -146,8 +142,6 @@ generate_config() {
             "sniffing":{
                 "enabled":true,
                 "destOverride":[
-                    "http",
-                    "tls"
                 ],
                 "metadataOnly":false
             }
@@ -174,8 +168,6 @@ generate_config() {
             "sniffing":{
                 "enabled":true,
                 "destOverride":[
-                    "http",
-                    "tls"
                 ],
                 "metadataOnly":false
             }
